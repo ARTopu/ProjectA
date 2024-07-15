@@ -11,9 +11,9 @@ namespace DAL.Interfaces
     {
         Task<IEnumerable<Bride>> GetAllBridesAsync();
         Task<Bride> GetBrideByIdAsync(int id);
-        Task<Bride> AddBrideAsync(Bride bride);
-        Task<Bride> UpdateBrideAsync(Bride bride);
-        Task<Bride> DeleteBrideAsync(int id);
+        Task AddBrideAsync(Bride bride);
+        Task UpdateBrideAsync(Bride bride);
+        Task DeleteBrideAsync(int id);
 
     }
 }

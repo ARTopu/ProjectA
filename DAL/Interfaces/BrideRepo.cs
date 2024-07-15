@@ -1,5 +1,6 @@
 ﻿using DAL.Data;
 using DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,29 +18,38 @@ namespace DAL.Interfaces
             _appDbContext = appDbContext;
         }
 
-        public Task<Bride> AddBrideAsync(Bride bride)
+        public async Task AddBrideAsync(Bride bride)
         {
+             _appDbContext.Brides.Add(bride);
+            await _appDbContext.SaveChangesAsync();
             
         }
 
-        public Task<Bride> DeleteBrideAsync(int id)
+        public async Task DeleteBrideAsync(int id)
         {
+            var bride = await _appDbContext.Brides.FindAsync(id);
+            if(bride != null)
+            {
+                _appDbContext.Remove(bride);
+                await _appDbContext.SaveChangesAsync();
+            }
             
         }
 
-        public Task<IEnumerable<Bride>> GetAllBridesAsync()
+        public async Task<IEnumerable<Bride>> GetAllBridesAsync()
         {
-            
+            return await _appDbContext.Brides.ToListAsync();
         }
 
-        public Task<Bride> GetBrideByIdAsync(int id)
+        public async Task<Bride> GetBrideByIdAsync(int id)
         {
-            
+            return await _appDbContext.Brides.FindAsync(id);
         }
 
-        public Task<Bride> UpdateBrideAsync(Bride bride)
+        public async Task UpdateBrideAsync(Bride bride)
         {
-            
+            _appDbContext.Entry(bride).State = EntityState.Modified;
+            await _appDbContext.SaveChangesAsync();
         }
     }
 }

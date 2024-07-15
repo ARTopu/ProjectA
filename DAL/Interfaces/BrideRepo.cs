@@ -19,27 +19,27 @@ namespace DAL.Interfaces
 
         public Task<Bride> AddBrideAsync(Bride bride)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<Bride> DeleteBrideAsync(int id)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<IEnumerable<Bride>> GetAllBridesAsync()
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<Bride> GetBrideByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<Bride> UpdateBrideAsync(Bride bride)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

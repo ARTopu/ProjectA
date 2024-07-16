@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\briderepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|h:\\practice\\.net practice\\new folder\\project a\\projecta\\dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|solutionrelative:dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|h:\\practice\\.net practice\\new folder\\project a\\projecta\\dal\\interfaces\\ibriderepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ibriderepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|h:\\practice\\.net practice\\new folder\\project a\\projecta\\dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|solutionrelative:dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A679EB2D-E255-42D0-80A3-AB7E9F5E0CE7}|DAL\\DAL.csproj|h:\\practice\\.net practice\\new folder\\project a\\projecta\\dal\\entities\\bride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,26 +40,26 @@
               "RelativeDocumentMoniker": "DAL\\Interfaces\\BrideRepo.cs",
               "ToolTip": "H:\\Practice\\.net Practice\\New folder\\Project A\\ProjectA\\DAL\\Interfaces\\BrideRepo.cs",
               "RelativeToolTip": "DAL\\Interfaces\\BrideRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T12:59:40.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IBrideRepo.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\Project A\\ProjectA\\DAL\\Interfaces\\IBrideRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IBrideRepo.cs",
               "ToolTip": "H:\\Practice\\.net Practice\\New folder\\Project A\\ProjectA\\DAL\\Interfaces\\IBrideRepo.cs",
               "RelativeToolTip": "DAL\\Interfaces\\IBrideRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T12:00:30.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\Project A\\ProjectA\\DAL\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DAL\\Data\\AppDbContext.cs",
